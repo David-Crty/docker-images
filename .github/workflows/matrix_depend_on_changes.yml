@@ -3,7 +3,7 @@ name: 'triggered on PUSH'
 on:
   push:
     branches:
-      - your_brunch_name
+      - master
 
 jobs:
   get_with_predefined_action:
