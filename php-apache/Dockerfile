@@ -65,3 +65,4 @@ COPY envvars /etc/apache2/envvars
 WORKDIR /var/www
 EXPOSE 80
 CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
+
